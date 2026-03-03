@@ -1,0 +1,13 @@
+Using only the selected researcher features, generate simple IF–THEN rules 
+that could help match researchers to this grant. 
+ 
+Rules must: 
+- Not repeat existing rules. 
+- Not break any mandatory grant conditions. 
+- Be clear and easy to understand. 
+ 
+Existing rules: 
+[PASTE SEED RULES] 
+ 
+Write each rule in the form: 
+IF [condition] THEN [recommend / not recommend]. 
