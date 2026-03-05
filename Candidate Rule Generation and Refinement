@@ -1,0 +1,17 @@
+## Candidate Rule Generation and Refinement
+
+Candidate IF–THEN rules were generated and subsequently filtered to remove duplication and weak reasoning patterns. The following dynamic rules were retained:
+
+**Rule 1 (International collaboration—prior collaboration).**  
+IF the grant requires international collaboration AND the researcher has prior collaboration signals *(ARC Linkage > 0 OR CRC-P > 0)*, THEN **Recommend**.
+
+**Rule 2 (International collaboration—industry collaboration).**  
+IF the grant requires international collaboration AND the researcher has industry collaboration signals *(industry projects > 0 OR industry experience = Yes)*, THEN **Recommend**.
+
+**Rule 3 (Scientific merit—research performance).**  
+IF the grant emphasizes scientific merit AND the researcher demonstrates strong research performance *(citations OR h-index above the defined threshold)*, THEN **Recommend**.
+
+**Rule 4 (Demonstrated achievements—competitive funding).**  
+IF the grant prioritizes demonstrated achievements AND the researcher has prior competitive funding *(ARC Discovery > 0 OR ARC Linkage > 0)*, THEN **Recommend**.
+
+These dynamic rules provided additional recommendation signals while preserving deterministic eligibility enforcement. No dynamic rule altered admissibility constraints. The final decision therefore remained compliant and explainable, with enhanced contextual alignment.
